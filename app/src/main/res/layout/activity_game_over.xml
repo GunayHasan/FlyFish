@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_below="@+id/game_over"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60sp"
+        android:text="Play Again"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>
